@@ -9,6 +9,6 @@ module.exports = class GuildDeleteEvent extends BaseEvent {
   }
   
   async run(client, guild) {
-    console.log(chalk.red(`[CLIENT] => [GUILD] Left: ${guild.name}`))
+    client.logger.logRed('guild', `Left: ${guild.name}`)
   }
 }

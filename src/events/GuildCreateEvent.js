@@ -9,6 +9,6 @@ module.exports = class GuildCreateEvent extends BaseEvent {
   }
   
   async run(client, guild) {
-    console.log(chalk.green(`[CLIENT] => [GUILD] Joined: ${guild.name} with ${guild.memberCount} users`))
+    client.logger.log('guild', `Joined: ${guild.name} with ${guild.memberCount} users`);
   }
 }
