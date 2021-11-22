@@ -6,6 +6,11 @@ A Work in Progress Multipurpose Discord Bot!
 ### Owner
 - [X] Eval
 
+### Moderation
+- [ ] Kick
+- [ ] Ban
+- [ ] Mute
+
 ## Image
 ### SFW
 - [X] Yui Hirasawa
@@ -26,6 +31,7 @@ A Work in Progress Multipurpose Discord Bot!
 ### Info
 - [ ] Help
 - [X] Invite
+- [X] Server Info
 
 ### Misc
 - [ ] Weather
