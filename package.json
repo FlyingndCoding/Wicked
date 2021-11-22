@@ -8,6 +8,10 @@
     "start": "node ./src/index.js",
     "build": ""
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jessebots/wicked.git"
+  },
   "keywords": [],
   "author": "Jesse",
   "license": "ISC",
