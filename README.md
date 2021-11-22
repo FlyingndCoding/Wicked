@@ -1,5 +1,5 @@
 # Wicked
- Multipurpose Discord Bot!
+A Work in Progress Multipurpose Discord Bot!
 
 ## Features
 
