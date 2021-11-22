@@ -20,9 +20,9 @@ A Work in Progress Multipurpose Discord Bot!
 - [X] Meru the Succubus
 
 ## Action
-- [ ] Cuddle
+- [X] Cuddle
 - [ ] Hug
-- [ ] Kiss
+- [X] Kiss
 - [ ] Lick
 - [ ] Pat
 - [ ] Slap
