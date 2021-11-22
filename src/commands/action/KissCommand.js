@@ -4,17 +4,17 @@ const nekoClient = require('nekos.life');
 const neko = new nekoClient();
 
 module.exports = class KissCommand extends BaseCommand {
-  constructor() {
-    super('kiss', 'action', []);
-  }
+	constructor() {
+		super('kiss', 'action', []);
+	}
 
-  async run(client, message, args) {
-    const member = message.mentions.members.first();
-    const GIF = await neko.sfw.kiss();
-    const embed = new MessageEmbed()
-      .setColor('#202225')
-      .setTitle(`${message.author.username} kissed ${member.user.username}, adorable~`)
-      .setImage(GIF.url)
-    message.reply({ embeds: [embed] });
-  }
-}
+	async run(client, message, args) {
+		const member = message.mentions.members.first();
+		const GIF = await neko.sfw.kiss();
+		const embed = new MessageEmbed()
+			.setColor('#202225')
+			.setTitle(`${message.author.username} kissed ${member.user.username}, adorable~`)
+			.setImage(GIF.url);
+		message.reply({ embeds: [embed] });
+	}
+};
