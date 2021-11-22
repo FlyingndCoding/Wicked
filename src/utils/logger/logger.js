@@ -18,6 +18,10 @@ class logger {
         console.log(chalk.green(`[CLIENT] => [${name.toUpperCase()}] ${content}`))
     }
 
+    logRed(name, content) {
+        console.log(chalk.red(`[CLIENT] => [${name.toUpperCase()}] ${content}`))
+    }
+
     error(content) {
         console.log(chalk.red(`[CLIENT] => [ERROR] ${content}`))
     }
