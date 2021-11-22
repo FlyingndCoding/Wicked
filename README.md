@@ -7,7 +7,7 @@ A Work in Progress Multipurpose Discord Bot!
 - [X] Eval
 
 ### Moderation
-- [ ] Kick
+- [X] Kick
 - [ ] Ban
 - [ ] Mute
 
@@ -32,6 +32,7 @@ A Work in Progress Multipurpose Discord Bot!
 - [ ] Help
 - [X] Invite
 - [X] Server Info
+- [ ] User Info
 
 ### Misc
 - [ ] Weather
