@@ -1,0 +1,2 @@
+# Wicked
+ Multipurpose Discord Bot!
