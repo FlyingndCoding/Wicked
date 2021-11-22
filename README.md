@@ -1,5 +1,6 @@
 # Wicked
 [![wakatime](https://wakatime.com/badge/user/aee8792f-d01d-4fab-89d4-0b326512d9b2/project/c9187bb9-3a4b-402d-a309-0b33705436d1.svg)](https://wakatime.com/badge/user/aee8792f-d01d-4fab-89d4-0b326512d9b2/project/c9187bb9-3a4b-402d-a309-0b33705436d1)
+
 A Work in Progress Multipurpose Discord Bot!
 
 ## Features
