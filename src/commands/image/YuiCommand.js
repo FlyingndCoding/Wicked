@@ -1,6 +1,6 @@
 const BaseCommand = require('../../utils/structures/BaseCommand');
-const { MessageEmbed } = require("discord.js");
-const superagent = require("superagent");
+const { MessageEmbed } = require('discord.js');
+const superagent = require('superagent');
 
 module.exports = class YuiCommand extends BaseCommand {
   constructor() {
@@ -14,7 +14,7 @@ module.exports = class YuiCommand extends BaseCommand {
     );
 
     const embed = new MessageEmbed()
-      .setColor("#202225")
+      .setColor('#202225')
       .setImage(`${body.url}`);
 
     message.reply({ embeds: [embed] });

@@ -1,6 +1,6 @@
 const BaseCommand = require('../../utils/structures/BaseCommand');
-const { MessageEmbed } = require("discord.js");
-const superagent = require("superagent");
+const { MessageEmbed } = require('discord.js');
+const superagent = require('superagent');
 
 module.exports = class MeruCommand extends BaseCommand {
   constructor() {
@@ -10,7 +10,7 @@ module.exports = class MeruCommand extends BaseCommand {
   async run(client, message, args) {
     if (!message.channel.nsfw) {
       return message.channel.send(
-        "This command can only be used in a NSFW marked channel."
+        'This command can only be used in a NSFW marked channel.'
       );
     }
 
