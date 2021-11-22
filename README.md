@@ -9,6 +9,7 @@ A Work in Progress Multipurpose Discord Bot!
 ## Image
 ### SFW
 - [ ] Yui Hirasawa
+- [ ] Inugami Korone
 
 ### NSFW
 - [ ] Meru the Succubus
