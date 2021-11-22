@@ -12,7 +12,7 @@ module.exports = class ReadyEvent extends BaseEvent {
     setTimeout(updateChecker, 1500);
   };
 
-  client.user.setActivity(`restarting...`);
+  client.user.setActivity('restarting...');
   setTimeout(function() { 
     setInterval(() => {
     client.user.setActivity(`${client.config.prefix} help | ${client.guilds.cache.size} servers`)

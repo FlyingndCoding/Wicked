@@ -2,7 +2,7 @@ const { Client, Intents } = require('discord.js');
 const { registerCommands, registerEvents } = require('./utils/registry');
 const config = require('../slappey.json');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES ] });
-const logger = require("./utils/logger/logger");
+const logger = require('./utils/logger/logger');
 
 (async () => {
   client.commands = new Map();
