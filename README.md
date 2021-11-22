@@ -24,6 +24,7 @@ A Work in Progress Multipurpose Discord Bot!
 - [ ] Tickle
 
 ### Info
+- [ ] Help
 - [X] Invite
 
 ### Misc
