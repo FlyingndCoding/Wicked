@@ -1,0 +1,11 @@
+{
+  "name": "Wicked",
+  "language": "javascript",
+  "manager": "npm",
+  "token": "",
+  "prefix": "w ",
+  
+  "ownerID": "",
+  "debug": true,
+  "checkForUpdates": true
+}
