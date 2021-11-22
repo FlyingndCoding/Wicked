@@ -1,6 +1,5 @@
 const fetch = require('node-fetch');
 const { version } = require('../../../package.json');
-const { checkForUpdates } = require('../../../slappey.json');
 const client = require('../../index');
 
 module.exports = {
@@ -19,6 +18,6 @@ function updateChecker() {
             client.logger.update('Get the latest version here: https://github.com/JesseBots/Wicked')
         }
     }).catch(error => {
-            client.logger.updateError('Unable to check for new updates!')
+        client.logger.updateError('Unable to check for new updates!')
     });
 }
