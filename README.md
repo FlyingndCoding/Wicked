@@ -38,7 +38,7 @@ A Work in Progress Multipurpose Discord Bot!
 - [ ] User Info
 
 ### Misc
-- [ ] Weather
+- [X] Weather
 
 ### Util
 - [X] Update Checker
