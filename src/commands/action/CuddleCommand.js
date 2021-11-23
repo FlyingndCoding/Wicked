@@ -9,12 +9,20 @@ module.exports = class CuddleCommand extends BaseCommand {
 	}
 
 	async run(client, message, args) {
-		const member = message.mentions.members.first();
-		const GIF = await neko.sfw.cuddle();
-		const embed = new MessageEmbed()
-			.setColor('#202225')
-			.setTitle(`${message.author.username} cuddles ${member.user.username}~ cute!`)
-			.setImage(GIF.url);
-		message.reply({ embeds: [embed] });
+		if (message.mentions.members.size === 0) {
+			return message.reply('\`Usage: cuddle @user\`');
+		}
+
+		try {
+			const member = message.mentions.members.first();
+			const GIF = await neko.sfw.cuddle();
+			const embed = new MessageEmbed()
+				.setColor('#202225')
+				.setTitle(`${message.author.username} cuddles ${member.user.username}~ cute!`)
+				.setImage(GIF.url);
+			message.reply({ embeds: [embed] });
+		} catch (e) {
+			return message.reply(`${e}`);
+		}
 	}
 };
