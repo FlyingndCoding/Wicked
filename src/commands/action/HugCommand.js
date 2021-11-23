@@ -10,7 +10,7 @@ module.exports = class HugCommand extends BaseCommand {
 
 	async run(client, message, args) {
 		if (message.mentions.members.size === 0) {
-			return message.reply('\`Usage: hug @user\`');
+			return message.reply('`Usage: hug @user`');
 		}
 
 		try {

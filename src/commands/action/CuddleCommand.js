@@ -10,7 +10,7 @@ module.exports = class CuddleCommand extends BaseCommand {
 
 	async run(client, message, args) {
 		if (message.mentions.members.size === 0) {
-			return message.reply('\`Usage: cuddle @user\`');
+			return message.reply('`Usage: cuddle @user`');
 		}
 
 		try {

@@ -9,7 +9,7 @@ module.exports = class LickCommand extends BaseCommand {
 
 	async run(client, message, args) {
 		if (message.mentions.members.size === 0) {
-			return message.reply('\`Usage: lick @user\`');
+			return message.reply('`Usage: lick @user`');
 		}
 
 		try {
