@@ -7,6 +7,7 @@ A Work in Progress Multipurpose Discord Bot!
 
 ### Owner
 - [X] Eval
+- [X] Restart
 
 ### Moderation
 - [X] Kick
