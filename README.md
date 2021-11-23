@@ -23,9 +23,9 @@ A Work in Progress Multipurpose Discord Bot!
 
 ## Action
 - [X] Cuddle
-- [ ] Hug
+- [X] Hug
 - [X] Kiss
-- [ ] Lick
+- [X] Lick
 - [ ] Pat
 - [ ] Slap
 - [ ] Tickle
