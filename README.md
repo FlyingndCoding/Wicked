@@ -18,6 +18,7 @@ A Work in Progress Multipurpose Discord Bot!
 ### SFW
 - [X] Yui Hirasawa
 - [ ] Inugami Korone
+- [X] Rem
 
 ### NSFW
 - [X] Meru the Succubus
@@ -30,6 +31,12 @@ A Work in Progress Multipurpose Discord Bot!
 - [ ] Pat
 - [ ] Slap
 - [ ] Tickle
+
+## Reaction
+- [X] Smug
+- [X] Clap
+- [X] Nom
+- [X] Stare
 
 ### Info
 - [ ] Help
@@ -101,3 +108,8 @@ npm install -g slappey
 
 ## Documentation
 - [Slappey (Discord Bot Project Generator)](https://github.com/stuyy/slappey)
+
+### API's
+- [nekos.life]() ([js wrapper](https://github.com/Nekos-life/nekos-dot-life))
+- [rra.ram.moe](https://rra.ram.moe/i/r?type=)
+- [api.shashumga.club](https://api.shashumga.club/) ([js wrapper](https://github.com/JesseBots/shashumga-dot-club))
