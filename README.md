@@ -3,6 +3,8 @@
 
 A Work in Progress Multipurpose Discord Bot!
 
+Requires Node 16.11.1 or higher.
+
 ## Features
 
 ### Owner
