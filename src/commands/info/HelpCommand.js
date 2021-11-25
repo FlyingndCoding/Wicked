@@ -20,7 +20,7 @@ module.exports = class HelpCommand extends BaseCommand {
 					.addFields(
 						{ name: '🤗 Action', value: 'cuddle, hug, kiss, lick' },
 						{ name: '😮 Reaction', value: 'smug, clap, nom, stare' },
-						{ name: '🖼 SFW Image', value: 'yui, rem, yaoi, catboy', inline: false },
+						{ name: '🖼 SFW Image', value: 'yui, rem, yaoi, catboy, neko', inline: false },
 						{ name: '🥴 NSFW Image', value: 'meru, yuri, trap, femdom, boobs', inline: false },
 						{ name: '⚙️ Info', value: 'help, invite, serverinfo, userinfo, dev', inline: false },
 						{ name: '🤷‍♀️ Misc', value: 'weather, sauce', inline: false },

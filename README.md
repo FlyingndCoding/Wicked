@@ -23,6 +23,7 @@ Requires Node 16.11.1 or higher.
 - [X] Rem
 - [X] Yaoi
 - [X] Catboy
+- [X] Neko
 
 ### NSFW
 - [X] Meru the Succubus
