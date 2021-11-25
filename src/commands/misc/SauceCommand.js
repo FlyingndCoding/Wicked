@@ -1,6 +1,5 @@
 const BaseCommand = require('../../utils/structures/BaseCommand');
 const client = require('../../index');
-
 const sagiri = require('sagiri'),
 	isImageUrl = require('is-image-url'),
 	path = require('path'),
