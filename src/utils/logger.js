@@ -1,4 +1,4 @@
-const { DEBUG } = new (require('./loggerUtil'))();
+const { DEBUG } = new (require('./util'))();
 const chalk = require('chalk');
 
 class logger {

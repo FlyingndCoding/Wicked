@@ -75,5 +75,5 @@ typings/
 # FuseBox cache
 .fusebox/
 
-# Config File
-slappey.json
+# Test Config File
+testslappey.json
