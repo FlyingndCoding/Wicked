@@ -21,6 +21,8 @@ Requires Node 16.11.1 or higher.
 - [X] Yui Hirasawa
 - [ ] Inugami Korone
 - [X] Rem
+- [X] Yaoi
+- [X] Catboy
 
 ### NSFW
 - [X] Meru the Succubus
@@ -112,6 +114,7 @@ npm install -g slappey
 - [Slappey (Discord Bot Project Generator)](https://github.com/stuyy/slappey)
 
 ### API's
+- [catboys.com](https://catboys.com/api) ([js wrapper](https://github.com/Catboys-Dev/catboys-js))
 - [nekos.life]() ([js wrapper](https://github.com/Nekos-life/nekos-dot-life))
 - [rra.ram.moe](https://rra.ram.moe/i/r?type=)
 - [api.shashumga.club](https://api.shashumga.club/) ([js wrapper](https://github.com/JesseBots/shashumga-dot-club))
