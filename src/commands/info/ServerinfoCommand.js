@@ -1,7 +1,7 @@
 const BaseCommand = require('../../utils/structures/BaseCommand');
 const { MessageEmbed } = require('discord.js');
 
-module.exports = class ServerinfoCommand extends BaseCommand {
+module.exports = class ServerInfoCommand extends BaseCommand {
 	constructor() {
 		super('serverinfo', 'info', ['si']);
 	}

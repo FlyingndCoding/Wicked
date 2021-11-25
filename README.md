@@ -28,6 +28,8 @@ Requires Node 16.11.1 or higher.
 - [X] Meru the Succubus
 - [X] Yuri
 - [X] Trap
+- [X] Femdom
+- [X] Boobs
 
 ## Action
 - [X] Cuddle
@@ -48,7 +50,7 @@ Requires Node 16.11.1 or higher.
 - [ ] Help
 - [X] Invite
 - [X] Server Info
-- [ ] User Info
+- [X] User Info
 
 ### Misc
 - [X] Weather
