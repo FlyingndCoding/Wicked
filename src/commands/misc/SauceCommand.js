@@ -14,7 +14,7 @@ module.exports = class SauceCommand extends BaseCommand {
 	}
 
 	run(client, message, args) {
-		let getSauce = function(image) {
+		const getSauce = function(image) {
 			search.getSauce(image).then(response => {
 				let data = response[0];
 				// console.log(response);

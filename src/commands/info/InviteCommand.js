@@ -12,17 +12,17 @@ module.exports = class InviteCommand extends BaseCommand {
 			.setColor('#202225')
 			.setThumbnail(client.user.displayAvatarURL());
 
-		let botInvite = new MessageButton()
+		const botInvite = new MessageButton()
 			.setStyle('LINK')
 			.setURL(`https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=4126665975&scope=bot%20applications.commands`)
 			.setLabel('Invite');
 
-		let supportLink = new MessageButton()
+		const supportLink = new MessageButton()
 			.setStyle('LINK')
 			.setURL('https://discord.gg')
 			.setLabel('Support');
 
-		let linkRow = new MessageActionRow().addComponents([botInvite, supportLink]);
+		const linkRow = new MessageActionRow().addComponents([botInvite, supportLink]);
 		await message.reply({ embeds: [inviteEmbed], components: [linkRow] });
 	}
 };

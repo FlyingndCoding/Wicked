@@ -51,6 +51,7 @@ Requires Node 16.11.1 or higher.
 - [X] Invite
 - [X] Server Info
 - [X] User Info
+- [X] Dev Info
 
 ### Misc
 - [X] Weather
