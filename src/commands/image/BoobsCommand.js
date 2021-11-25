@@ -5,7 +5,7 @@ const neko = new nekoClient();
 
 module.exports = class BoobsCommand extends BaseCommand {
 	constructor() {
-		super('boobs', 'image', ['booba']);
+		super('boobs', 'image', ['booba', 'boob']);
 	}
 
 	async run(client, message, args) {
