@@ -22,6 +22,10 @@ module.exports = class util {
 		return process.env.checkForUpdates || config.checkForUpdates;
 	}
 
+	get SAUCENAOAPIKEY() {
+		return process.env.saucenaoApiKey || config.saucenaoApiKey;
+	}
+
 	handleClose(client) {
 		process.exit(0); // Requires a process manager to restart.
 	};

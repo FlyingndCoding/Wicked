@@ -54,6 +54,7 @@ Requires Node 16.11.1 or higher.
 
 ### Misc
 - [X] Weather
+- [X] Sauce
 
 ### Util
 - [X] Update Checker
@@ -89,7 +90,8 @@ npm i
   // Then right clicking on your name and clicking copy ID.
   "debug": true, // Enable/Disable extra debug info.
   // I recommend keeping this on true.
-  "checkForUpdates": true // Enable/Disable checking for updates of the source.
+  "checkForUpdates": true, // Enable/Disable checking for updates of the source.
+  "saucenaoApiKey": "" // Saucenao api key from https://saucenao.com/user.php?page=search-api
 }
 ```
 

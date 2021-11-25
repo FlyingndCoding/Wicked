@@ -7,5 +7,6 @@
   
   "ownerID": "",
   "debug": true,
-  "checkForUpdates": true
+  "checkForUpdates": true,
+  "saucenaoApiKey": ""
 }
