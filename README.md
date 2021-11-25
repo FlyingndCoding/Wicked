@@ -120,6 +120,7 @@ npm install -g slappey
 - [Slappey (Discord Bot Project Generator)](https://github.com/stuyy/slappey)
 
 ### API's
+- [SauceNAO](https://saucenao.com/user.php?page=search-api)
 - [catboys.com](https://catboys.com/api) ([js wrapper](https://github.com/Catboys-Dev/catboys-js))
 - [nekos.life]() ([js wrapper](https://github.com/Nekos-life/nekos-dot-life))
 - [rra.ram.moe](https://rra.ram.moe/i/r?type=)
