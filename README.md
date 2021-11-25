@@ -27,6 +27,7 @@ Requires Node 16.11.1 or higher.
 ### NSFW
 - [X] Meru the Succubus
 - [X] Yuri
+- [X] Trap
 
 ## Action
 - [X] Cuddle
