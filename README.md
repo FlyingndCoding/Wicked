@@ -47,7 +47,7 @@ Requires Node 16.11.1 or higher.
 - [X] Stare
 
 ### Info
-- [ ] Help
+- [X] Help
 - [X] Invite
 - [X] Server Info
 - [X] User Info
